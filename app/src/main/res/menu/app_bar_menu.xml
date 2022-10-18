@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/kesfetFragment"
+        android:icon="@drawable/kesfet"
+        android:title="@string/kesfet" />
+    <item
+        android:id="@+id/listemFragment"
+        android:icon="@drawable/listem"
+        android:title="@string/listem" />
+    <item
+        android:id="@+id/aramaFragment"
+        android:icon="@drawable/arama"
+        android:title="@string/arama" />
+    <item
+        android:id="@+id/canliTvFragment"
+        android:icon="@drawable/canlitv"
+        android:title="@string/canli_tv" />
+    <item
+        android:id="@+id/hesabimFragment"
+        android:icon="@drawable/hesabim"
+        android:title="@string/hesabim"
+        />
+</menu>

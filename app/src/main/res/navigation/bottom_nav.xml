@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottom_nav"
+    app:startDestination="@id/kesfetFragment">
+
+    <fragment
+        android:id="@+id/kesfetFragment"
+        android:name="com.serapercel.blutvclone.KesfetFragment"
+        android:label="fragment_kesfet"
+        tools:layout="@layout/fragment_kesfet" />
+    <fragment
+        android:id="@+id/listemFragment"
+        android:name="com.serapercel.blutvclone.ListemFragment"
+        android:label="fragment_listem"
+        tools:layout="@layout/fragment_listem" />
+    <fragment
+        android:id="@+id/aramaFragment"
+        android:name="com.serapercel.blutvclone.AramaFragment"
+        android:label="fragment_arama"
+        tools:layout="@layout/fragment_arama" />
+    <fragment
+        android:id="@+id/canliTvFragment"
+        android:name="com.serapercel.blutvclone.CanliTvFragment"
+        android:label="fragment_canlitv"
+        tools:layout="@layout/fragment_canlitv" />
+    <fragment
+        android:id="@+id/hesabimFragment"
+        android:name="com.serapercel.blutvclone.HesabimFragment"
+        android:label="fragment_hesabim"
+        tools:layout="@layout/fragment_hesabim" />
+</navigation>
