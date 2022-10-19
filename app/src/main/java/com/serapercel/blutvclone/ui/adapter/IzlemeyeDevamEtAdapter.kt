@@ -22,7 +22,7 @@ class IzlemeyeDevamEtAdapter(var mContext: Context, var filmlerListesi: List<Fil
     }
 
     override fun onBindViewHolder(holder: IzlemeyeDevamEtCardHolder, position: Int) {
-        val film = filmlerListesi.get(position)
+        val film = filmlerListesi[position]
         val b = holder.binding
         b.zamanTextView.text = film.time
         b.izlemeyeDevamEtImage.setImageResource(film.image)

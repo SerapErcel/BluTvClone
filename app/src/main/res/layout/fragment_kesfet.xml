@@ -94,10 +94,28 @@
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/izlemeyeDevamEtRV"
         android:layout_width="0dp"
-        android:layout_height="150dp"
+        android:layout_height="wrap_content"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/izlemeyeDevamEtTitle" />
+    <TextView
+        android:id="@+id/polisiyeRuzgariTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/ızlemeye_devam_et"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/izlemeyeDevamEtRV" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/polisiyeRuzgariRV"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/polisiyeRuzgariTitle" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
