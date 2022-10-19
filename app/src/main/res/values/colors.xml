@@ -10,5 +10,6 @@
 
     <color name="main">#16243e</color>
     <color name="grey">#757575</color>
+    <color name="main_transparent">#8016243e</color>
 
 </resources>

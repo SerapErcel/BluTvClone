@@ -24,9 +24,9 @@ class KesfetFragment : Fragment() {
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         binding = FragmentKesfetBinding.inflate(inflater, container, false)
+        addToList(R.drawable.dahmer)
         addToList(R.drawable.gri_degil_siyah)
-        addToList(R.drawable.gri_degil_siyah)
-        addToList(R.drawable.gri_degil_siyah)
+        addToList(R.drawable.dahmer)
 
         val film = Film("Six Feet Under", R.drawable.six_feet_under, "S1 B2 - 59dk")
         val film1 = Film( "Börü", R.drawable.boru, "S1 B2 - 59dk")

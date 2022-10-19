@@ -7,12 +7,15 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="287dp"
-        android:layout_height="281dp"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:contentDescription="@string/app_name"
+        android:scaleType="centerCrop"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/gri_degil_siyah" />
+        app:srcCompat="@drawable/dahmer" />
 
     <Button
         android:id="@+id/button"
@@ -21,12 +24,25 @@
         android:layout_marginStart="8dp"
         android:backgroundTint="@color/white"
         android:text="@string/hemen_izle"
-        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         android:textColor="@color/black"
+        android:textSize="12sp"
         app:icon="@drawable/play"
         app:iconTint="@color/black"
         app:layout_constraintBottom_toBottomOf="@+id/imageView"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:contentDescription="@string/app_name"
+        app:backgroundTint="@color/grey"
+        app:fabSize="mini"
+        app:layout_constraintBottom_toBottomOf="@+id/button"
+        app:layout_constraintStart_toEndOf="@+id/button"
+        app:srcCompat="@drawable/add"
+        app:tint="@color/white" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
