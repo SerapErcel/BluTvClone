@@ -6,4 +6,8 @@
     <string name="canli_tv">Canlı TV</string>
     <string name="hesabim">Hesabım</string>
     <string name="listem">Listem</string>
+    <string name="dizi">Dizi</string>
+    <string name="film">Film</string>
+    <string name="discovery">discovery+</string>
+    <string name="kids">Kids</string>
 </resources>
