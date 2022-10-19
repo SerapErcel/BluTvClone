@@ -24,7 +24,7 @@ class KesfetFragment : Fragment() {
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         binding = FragmentKesfetBinding.inflate(inflater, container, false)
-        addToList(R.drawable.dahmer)
+        addToList(R.drawable.dahmerr)
         addToList(R.drawable.gri_degil_siyah)
         addToList(R.drawable.dahmer)
 
