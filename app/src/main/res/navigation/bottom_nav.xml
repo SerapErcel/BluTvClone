@@ -7,27 +7,27 @@
 
     <fragment
         android:id="@+id/kesfetFragment"
-        android:name="com.serapercel.blutvclone.KesfetFragment"
+        android:name="com.serapercel.blutvclone.ui.fragment.KesfetFragment"
         android:label="fragment_kesfet"
         tools:layout="@layout/fragment_kesfet" />
     <fragment
         android:id="@+id/listemFragment"
-        android:name="com.serapercel.blutvclone.ListemFragment"
+        android:name="com.serapercel.blutvclone.ui.fragment.ListemFragment"
         android:label="fragment_listem"
         tools:layout="@layout/fragment_listem" />
     <fragment
         android:id="@+id/aramaFragment"
-        android:name="com.serapercel.blutvclone.AramaFragment"
+        android:name="com.serapercel.blutvclone.ui.fragment.AramaFragment"
         android:label="fragment_arama"
         tools:layout="@layout/fragment_arama" />
     <fragment
         android:id="@+id/canliTvFragment"
-        android:name="com.serapercel.blutvclone.CanliTvFragment"
+        android:name="com.serapercel.blutvclone.ui.fragment.CanliTvFragment"
         android:label="fragment_canlitv"
         tools:layout="@layout/fragment_canlitv" />
     <fragment
         android:id="@+id/hesabimFragment"
-        android:name="com.serapercel.blutvclone.HesabimFragment"
+        android:name="com.serapercel.blutvclone.ui.fragment.HesabimFragment"
         android:label="fragment_hesabim"
         tools:layout="@layout/fragment_hesabim" />
 </navigation>

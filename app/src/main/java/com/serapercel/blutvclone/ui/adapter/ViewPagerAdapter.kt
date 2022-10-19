@@ -1,11 +1,11 @@
-package com.serapercel.blutvclone
+package com.serapercel.blutvclone.ui.adapter
 
-import android.text.Layout
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import androidx.recyclerview.widget.RecyclerView
+import com.serapercel.blutvclone.R
 
 class ViewPagerAdapter(private var images: List<Int>) :
     RecyclerView.Adapter<ViewPagerAdapter.Pager2ViewHolder>() {
@@ -28,13 +28,13 @@ class ViewPagerAdapter(private var images: List<Int>) :
     override fun onCreateViewHolder(
         parent: ViewGroup,
         viewType: Int
-    ): ViewPagerAdapter.Pager2ViewHolder {
+    ): Pager2ViewHolder {
         return Pager2ViewHolder(
             LayoutInflater.from(parent.context).inflate(R.layout.item_page, parent, false)
         )
     }
 
-    override fun onBindViewHolder(holder: ViewPagerAdapter.Pager2ViewHolder, position: Int) {
+    override fun onBindViewHolder(holder: Pager2ViewHolder, position: Int) {
         holder.itemImage.setImageResource(images[position])
 
     }
